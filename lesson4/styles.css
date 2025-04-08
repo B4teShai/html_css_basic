@@ -1,0 +1,172 @@
+/* Base styles - Mobile First Approach */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #9b59b6;
+    --text-color: #333;
+    --background-color: #f8f9fa;
+    --border-color: #ddd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    padding: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+    color: var(--accent-color);
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+/* Example Containers */
+.example {
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    font-family: monospace;
+    display: block;
+    margin: 1rem 0;
+    white-space: pre-wrap;
+}
+
+/* Responsive Demo */
+.responsive-demo .demo-box {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+/* Units Demo */
+.units-demo {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.units-demo > div {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--background-color);
+}
+
+.rem-example {
+    font-size: 1rem;
+}
+
+.em-example {
+    font-size: 1em;
+}
+
+.vw-example {
+    font-size: 2vw;
+}
+
+/* Image Demo */
+.image-demo {
+    margin: 1rem 0;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+/* Mobile First Demo */
+.mobile-first-demo {
+    display: grid;
+    gap: 1rem;
+}
+
+.step {
+    padding: 1rem;
+    background-color: var(--background-color);
+    border-radius: 0.5rem;
+    border-left: 4px solid var(--primary-color);
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+    body {
+        padding: 2rem;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .responsive-demo .demo-box {
+        background-color: var(--secondary-color);
+    }
+
+    .units-demo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mobile-first-demo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    body {
+        padding: 2rem;
+        max-width: 1200px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .responsive-demo .demo-box {
+        background-color: var(--accent-color);
+    }
+
+    .units-demo {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mobile-first-demo {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .example {
+        padding: 2rem;
+    }
+} 

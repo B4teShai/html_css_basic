@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- TODO: Create a responsive header
+             - Logo should be smaller on mobile
+             - Navigation menu should collapse on mobile
+             - Add a hamburger menu icon for mobile -->
+        <nav class="main-nav">
+            <div class="logo">Blog Logo</div>
+            <button class="menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- TODO: Create a responsive hero section
+             - Background image should be responsive
+             - Text should be readable on all devices
+             - Call-to-action button should be prominent -->
+        <div class="hero-content">
+            <h1>Welcome to My Blog</h1>
+            <p>Exploring web development and design</p>
+            <button class="cta-button">Read More</button>
+        </div>
+    </section>
+
+    <!-- Featured Articles -->
+    <section class="featured-articles">
+        <!-- TODO: Create a responsive grid layout
+             - 3 columns on desktop
+             - 2 columns on tablet
+             - 1 column on mobile
+             - Add proper spacing and margins -->
+        <h2>Featured Articles</h2>
+        <div class="article-grid">
+            <article class="article-card">
+                <img src="https://via.placeholder.com/400x300" alt="Article 1">
+                <h3>Article Title 1</h3>
+                <p>Article preview text goes here...</p>
+            </article>
+            <article class="article-card">
+                <img src="https://via.placeholder.com/400x300" alt="Article 2">
+                <h3>Article Title 2</h3>
+                <p>Article preview text goes here...</p>
+            </article>
+            <article class="article-card">
+                <img src="https://via.placeholder.com/400x300" alt="Article 3">
+                <h3>Article Title 3</h3>
+                <p>Article preview text goes here...</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <!-- TODO: Create a responsive form layout
+             - Form should be centered on all devices
+             - Inputs should stack on mobile
+             - Button should be full width on mobile -->
+        <h2>Subscribe to Newsletter</h2>
+        <form class="signup-form">
+            <div class="form-group">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email">
+            </div>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Sidebar Content -->
+    <div class="content-with-sidebar">
+        <!-- TODO: Create a responsive layout with sidebar
+             - Sidebar on right on desktop
+             - Sidebar below content on mobile
+             - Proper spacing between elements -->
+        <main class="main-content">
+            <article>
+                <h2>Main Article</h2>
+                <p>Article content goes here...</p>
+                <p>More content...</p>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <div class="widget">
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#">Post 1</a></li>
+                    <li><a href="#">Post 2</a></li>
+                    <li><a href="#">Post 3</a></li>
+                </ul>
+            </div>
+            <div class="widget">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                    <li><a href="#">Category 3</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- TODO: Create a responsive footer
+             - Multiple columns on desktop
+             - Stack on mobile
+             - Social icons should be properly spaced -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>Blog description goes here...</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4: Responsive Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lesson 4: Responsive Design</h1>
+
+    <section>
+        <h2>1. Viewport Settings</h2>
+        <div class="example">
+            <h3>Viewport Meta Tag</h3>
+            <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>
+            <div class="explanation">
+                <h4>Why it's important:</h4>
+                <ul>
+                    <li>Ensures proper scaling on mobile devices</li>
+                    <li>Prevents mobile browsers from using virtual viewports</li>
+                    <li>Enables responsive design features</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>2. Media Queries</h2>
+        <div class="example">
+            <h3>Basic Media Query Syntax</h3>
+            <code>
+                @media (max-width: 768px) {<br>
+                &nbsp;&nbsp;/* Mobile styles */<br>
+                }<br><br>
+                @media (min-width: 769px) and (max-width: 1024px) {<br>
+                &nbsp;&nbsp;/* Tablet styles */<br>
+                }
+            </code>
+            
+            <div class="responsive-demo">
+                <div class="demo-box">
+                    <h4>Resize your browser to see changes</h4>
+                    <p>This box changes color based on screen width:</p>
+                    <ul>
+                        <li>Mobile (≤ 768px): Blue</li>
+                        <li>Tablet (769px - 1024px): Green</li>
+                        <li>Desktop (≥ 1025px): Purple</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>3. Responsive Units</h2>
+        <div class="example">
+            <h3>Relative Units</h3>
+            <div class="units-demo">
+                <div class="rem-example">
+                    <h4>REM Units</h4>
+                    <p>Based on root font size</p>
+                </div>
+                <div class="em-example">
+                    <h4>EM Units</h4>
+                    <p>Based on parent font size</p>
+                </div>
+                <div class="vw-example">
+                    <h4>Viewport Units</h4>
+                    <p>Based on viewport size</p>
+                </div>
+            </div>
+            <div class="explanation">
+                <ul>
+                    <li><code>rem</code>: Relative to root element</li>
+                    <li><code>em</code>: Relative to parent element</li>
+                    <li><code>vw/vh</code>: Relative to viewport</li>
+                    <li><code>%</code>: Relative to container</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>4. Responsive Images</h2>
+        <div class="example">
+            <h3>Fluid Images</h3>
+            <div class="image-demo">
+                <img src="https://via.placeholder.com/800x400" alt="Responsive image example" class="responsive-image">
+                <code>
+                    img {<br>
+                    &nbsp;&nbsp;max-width: 100%;<br>
+                    &nbsp;&nbsp;height: auto;<br>
+                    }
+                </code>
+            </div>
+            <div class="explanation">
+                <h4>Picture Element</h4>
+                <code>
+                    &lt;picture&gt;<br>
+                    &nbsp;&nbsp;&lt;source media="(min-width: 768px)" srcset="large.jpg"&gt;<br>
+                    &nbsp;&nbsp;&lt;source media="(min-width: 400px)" srcset="medium.jpg"&gt;<br>
+                    &nbsp;&nbsp;&lt;img src="small.jpg" alt="Responsive image"&gt;<br>
+                    &lt;/picture&gt;
+                </code>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>5. Mobile-First Approach</h2>
+        <div class="example">
+            <h3>Mobile-First Principles</h3>
+            <div class="mobile-first-demo">
+                <div class="step">
+                    <h4>1. Start Mobile</h4>
+                    <p>Design for smallest screens first</p>
+                </div>
+                <div class="step">
+                    <h4>2. Progressive Enhancement</h4>
+                    <p>Add features for larger screens</p>
+                </div>
+                <div class="step">
+                    <h4>3. Performance Focus</h4>
+                    <p>Optimize for mobile devices</p>
+                </div>
+            </div>
+            <div class="code-example">
+                <code>
+                    /* Mobile first base styles */<br>
+                    .element { width: 100%; }<br><br>
+                    /* Tablet and up */<br>
+                    @media (min-width: 768px) {<br>
+                    &nbsp;&nbsp;.element { width: 50%; }<br>
+                    }
+                </code>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>6. Practice Exercise</h2>
+        <p>Open the workshop folder and start with workshop.html. You'll create a fully responsive portfolio page using the mobile-first approach!</p>
+    </section>
+</body>
+</html> 

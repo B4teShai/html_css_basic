@@ -1,0 +1,131 @@
+/* Base styles - Mobile First */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #3498db;
+    --text-color: #333;
+    --background-color: #f8f9fa;
+    --border-color: #ddd;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* TODO: Style the header and navigation
+   - Make the navigation responsive
+   - Hide menu on mobile and show toggle button
+   - Display full menu on desktop
+*/
+.main-nav {
+    /* Your styles here */
+}
+
+.menu-toggle {
+    /* Your styles here */
+}
+
+.nav-links {
+    /* Your styles here */
+}
+
+/* TODO: Style the hero section
+   - Make it full-width
+   - Center content
+   - Add responsive padding
+*/
+.hero {
+    /* Your styles here */
+}
+
+.hero-content {
+    /* Your styles here */
+}
+
+/* TODO: Style the featured articles grid
+   - Create a responsive grid layout
+   - Adjust card sizes for different screens
+   - Make images responsive
+*/
+.article-grid {
+    /* Your styles here */
+}
+
+.article-card {
+    /* Your styles here */
+}
+
+/* TODO: Style the newsletter section
+   - Center the form
+   - Make inputs and button full-width on mobile
+   - Add proper spacing
+*/
+.newsletter {
+    /* Your styles here */
+}
+
+.signup-form {
+    /* Your styles here */
+}
+
+/* TODO: Style the main content and sidebar
+   - Create a responsive layout
+   - Stack on mobile
+   - Side-by-side on desktop
+*/
+.content-with-sidebar {
+    /* Your styles here */
+}
+
+.main-content {
+    /* Your styles here */
+}
+
+.sidebar {
+    /* Your styles here */
+}
+
+/* TODO: Style the footer
+   - Create responsive columns
+   - Stack sections on mobile
+   - Add proper spacing
+*/
+.footer-content {
+    /* Your styles here */
+}
+
+.footer-section {
+    /* Your styles here */
+}
+
+/* Mobile styles (base styles above) */
+
+/* Tablet styles */
+@media (min-width: 768px) {
+    /* TODO: Add tablet-specific styles
+       - Show navigation links
+       - 2 columns for article grid
+       - Adjust padding and margins
+    */
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    /* TODO: Add desktop-specific styles
+       - Full navigation menu
+       - 3 columns for article grid
+       - Side-by-side layout for main content and sidebar
+       - Footer columns
+    */
+} 
