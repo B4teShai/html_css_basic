@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5: Advanced Styling</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lesson 5: Advanced Styling</h1>
+
+    <section>
+        <h2>1. CSS Animations</h2>
+        <div class="example">
+            <h3>@keyframes and Animation Properties</h3>
+            <div class="animation-demo">
+                <div class="bounce-animation">Bounce</div>
+                <div class="fade-animation">Fade</div>
+                <div class="rotate-animation">Rotate</div>
+            </div>
+            <code>
+                @keyframes bounce {
+                    0%, 100% { transform: translateY(0); }
+                    50% { transform: translateY(-20px); }
+                }
+
+                .bounce-animation {
+                    animation: bounce 2s infinite;
+                }
+            </code>
+            <div class="explanation">
+                <h4>Key Animation Properties:</h4>
+                <ul>
+                    <li><code>animation-name</code>: Name of the @keyframes</li>
+                    <li><code>animation-duration</code>: Length of animation</li>
+                    <li><code>animation-timing-function</code>: Speed curve</li>
+                    <li><code>animation-delay</code>: Start delay</li>
+                    <li><code>animation-iteration-count</code>: Number of times</li>
+                    <li><code>animation-direction</code>: Forward/reverse</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>2. CSS Transitions</h2>
+        <div class="example">
+            <h3>Smooth State Changes</h3>
+            <div class="transition-demo">
+                <button class="hover-button">Hover Me</button>
+                <div class="scale-box">Scale Me</div>
+                <div class="color-box">Color Change</div>
+            </div>
+            <code>
+                .hover-button {
+                    transition: all 0.3s ease;
+                }
+                
+                .hover-button:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                }
+            </code>
+            <div class="explanation">
+                <h4>Transition Properties:</h4>
+                <ul>
+                    <li><code>transition-property</code>: Property to animate</li>
+                    <li><code>transition-duration</code>: Length of transition</li>
+                    <li><code>transition-timing-function</code>: Speed curve</li>
+                    <li><code>transition-delay</code>: Start delay</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>3. CSS Transforms</h2>
+        <div class="example">
+            <h3>2D and 3D Transforms</h3>
+            <div class="transform-demo">
+                <div class="transform-box rotate">Rotate</div>
+                <div class="transform-box scale">Scale</div>
+                <div class="transform-box skew">Skew</div>
+                <div class="transform-box translate">Translate</div>
+            </div>
+            <code>
+                .rotate { transform: rotate(45deg); }
+                .scale { transform: scale(1.5); }
+                .skew { transform: skew(20deg); }
+                .translate { transform: translate(20px, 20px); }
+            </code>
+            <div class="explanation">
+                <h4>Transform Functions:</h4>
+                <ul>
+                    <li><code>rotate(), rotateX(), rotateY(), rotateZ()</code></li>
+                    <li><code>scale(), scaleX(), scaleY()</code></li>
+                    <li><code>skew(), skewX(), skewY()</code></li>
+                    <li><code>translate(), translateX(), translateY(), translateZ()</code></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>4. Advanced Selectors</h2>
+        <div class="example">
+            <h3>Complex Selection Patterns</h3>
+            <div class="selector-demo">
+                <div class="parent">
+                    <p>First paragraph</p>
+                    <p>Second paragraph</p>
+                    <p>Third paragraph</p>
+                    <div class="child">Child element</div>
+                </div>
+            </div>
+            <code>
+                /* Attribute selectors */
+                [data-type="primary"] { }
+                
+                /* Pseudo-classes */
+                :nth-child(odd) { }
+                :not(.excluded) { }
+                
+                /* Combinators */
+                parent > child { }
+                element + element { }
+                element ~ element { }
+            </code>
+            <div class="explanation">
+                <h4>Types of Selectors:</h4>
+                <ul>
+                    <li>Attribute selectors: <code>[attr], [attr=value]</code></li>
+                    <li>Pseudo-classes: <code>:hover, :focus, :nth-child()</code></li>
+                    <li>Pseudo-elements: <code>::before, ::after</code></li>
+                    <li>Combinators: <code>>, +, ~</code></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>5. Practice Exercise</h2>
+        <p>Open the workshop folder and start with workshop.html. You'll create an interactive website with animations, transitions, and transforms!</p>
+    </section>
+</body>
+</html> 

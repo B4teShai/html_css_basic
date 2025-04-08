@@ -1,0 +1,283 @@
+/* Base styles */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --background-color: #f8f9fa;
+    --border-color: #ddd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+    color: var(--accent-color);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+}
+
+/* Example containers */
+.example {
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 4px;
+    display: block;
+    margin: 1rem 0;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+/* Animation Demo */
+.animation-demo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.animation-demo > div {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.bounce-animation {
+    animation: bounce 2s infinite ease-in-out;
+}
+
+/* Fade Animation */
+@keyframes fade {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+.fade-animation {
+    animation: fade 2s infinite ease-in-out;
+}
+
+/* Rotate Animation */
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.rotate-animation {
+    animation: rotate 3s infinite linear;
+}
+
+/* Transition Demo */
+.transition-demo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.hover-button {
+    padding: 1rem 2rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hover-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.scale-box {
+    background: var(--secondary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.scale-box:hover {
+    transform: scale(1.1);
+}
+
+.color-box {
+    background: var(--accent-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.color-box:hover {
+    background: var(--secondary-color);
+}
+
+/* Transform Demo */
+.transform-demo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.transform-box {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.transform-box.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.transform-box.scale:hover {
+    transform: scale(1.5);
+}
+
+.transform-box.skew:hover {
+    transform: skew(20deg);
+}
+
+.transform-box.translate:hover {
+    transform: translate(20px, 20px);
+}
+
+/* Selector Demo */
+.selector-demo {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin: 2rem 0;
+}
+
+.parent {
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+}
+
+.parent > p {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: var(--background-color);
+}
+
+/* Nth-child demo */
+.parent > p:nth-child(odd) {
+    background: var(--secondary-color);
+    color: white;
+}
+
+/* Adjacent sibling */
+.parent > p + p {
+    border-top: 1px solid var(--border-color);
+}
+
+/* Child element */
+.parent > .child {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: var(--accent-color);
+    color: white;
+}
+
+/* Explanation lists */
+.explanation ul {
+    list-style-type: none;
+    margin: 1rem 0;
+}
+
+.explanation li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.explanation code {
+    background: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 2px;
+    margin: 0 0.2rem;
+    display: inline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    .animation-demo,
+    .transition-demo,
+    .transform-demo {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .example {
+        padding: 1rem;
+    }
+} 

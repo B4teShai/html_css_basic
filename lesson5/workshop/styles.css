@@ -1,0 +1,155 @@
+/* Base styles */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --background-color: #f8f9fa;
+    --border-color: #ddd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+/* Header and Navigation */
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* TODO: Style the navigation
+   - Add hover animations to links
+   - Create smooth transitions
+   - Use transform for hover effects
+*/
+.nav-links {
+    /* Your styles here */
+}
+
+.nav-links a {
+    /* Your styles here */
+}
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-align: center;
+}
+
+/* TODO: Add hero animations
+   - Create entrance animations for content
+   - Add hover effects to button
+   - Use keyframes for continuous animations
+*/
+.hero-content {
+    /* Your styles here */
+}
+
+.cta-button {
+    /* Your styles here */
+}
+
+/* Projects Section */
+.projects {
+    padding: 4rem 2rem;
+}
+
+/* TODO: Style project cards
+   - Add hover transforms
+   - Create smooth transitions
+   - Use box-shadow animations
+*/
+.project-grid {
+    /* Your styles here */
+}
+
+.project-card {
+    /* Your styles here */
+}
+
+/* Skills Section */
+.skills {
+    padding: 4rem 2rem;
+    background: var(--background-color);
+}
+
+/* TODO: Create skill bar animations
+   - Animate progress bars
+   - Add hover effects to skill items
+   - Use CSS custom properties for progress
+*/
+.skills-grid {
+    /* Your styles here */
+}
+
+.skill-bar {
+    /* Your styles here */
+}
+
+.skill-progress {
+    /* Your styles here */
+}
+
+/* Contact Form */
+.contact {
+    padding: 4rem 2rem;
+}
+
+/* TODO: Style form elements
+   - Add input focus animations
+   - Create button hover effects
+   - Use transitions for smooth interactions
+*/
+.contact-form {
+    /* Your styles here */
+}
+
+.form-group input,
+.form-group textarea {
+    /* Your styles here */
+}
+
+/* Footer */
+footer {
+    padding: 2rem;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+/* TODO: Style social links
+   - Add hover animations
+   - Create transform effects
+   - Use transitions for smooth changes
+*/
+.social-links {
+    /* Your styles here */
+}
+
+.social-icon {
+    /* Your styles here */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Add responsive adjustments */
+} 
