@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2: CSS Basics</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .example {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .demo {
+            border: 2px solid #666;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        /* Demo styles for examples */
+        .color-demo { color: #ff5733; }
+        .background-demo { background-color: #ffe4e1; }
+        .font-demo { font-family: 'Georgia', serif; font-size: 1.2em; }
+        .box-model-demo {
+            width: 200px;
+            padding: 20px;
+            border: 5px solid #333;
+            margin: 15px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lesson 2: CSS Basics</h1>
+
+    <section>
+        <h2>1. CSS Syntax and Selectors</h2>
+        <div class="example">
+            <h3>Basic Syntax</h3>
+            <code>
+                selector {<br>
+                &nbsp;&nbsp;property: value;<br>
+                }
+            </code>
+            <p>Example:</p>
+            <code>
+                p {<br>
+                &nbsp;&nbsp;color: blue;<br>
+                &nbsp;&nbsp;font-size: 16px;<br>
+                }
+            </code>
+        </div>
+
+        <div class="example">
+            <h3>Common Selectors</h3>
+            <ul>
+                <li><code>element</code> - Selects all elements of that type</li>
+                <li><code>.class</code> - Selects elements with that class</li>
+                <li><code>#id</code> - Selects element with that ID</li>
+                <li><code>element.class</code> - Selects elements of that type with that class</li>
+                <li><code>parent > child</code> - Selects direct children</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>2. Colors and Typography</h2>
+        <div class="example">
+            <h3>Colors</h3>
+            <p>Colors can be specified in several ways:</p>
+            <ul>
+                <li>Named colors: <code>red</code>, <code>blue</code>, <code>green</code></li>
+                <li>Hexadecimal: <code>#ff5733</code> <span class="color-demo">(This color)</span></li>
+                <li>RGB: <code>rgb(255, 87, 51)</code></li>
+                <li>RGBA: <code>rgba(255, 87, 51, 0.5)</code> (with opacity)</li>
+            </ul>
+            <div class="demo background-demo">
+                This div has a background color
+            </div>
+        </div>
+
+        <div class="example">
+            <h3>Typography</h3>
+            <ul>
+                <li><code>font-family</code>: Sets the font</li>
+                <li><code>font-size</code>: Sets text size</li>
+                <li><code>font-weight</code>: Sets text boldness</li>
+                <li><code>line-height</code>: Sets line spacing</li>
+            </ul>
+            <div class="demo font-demo">
+                This text uses custom typography settings
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>3. Box Model</h2>
+        <div class="example">
+            <h3>Box Model Components</h3>
+            <ul>
+                <li><code>content</code>: The actual content area</li>
+                <li><code>padding</code>: Space between content and border</li>
+                <li><code>border</code>: The border around the padding</li>
+                <li><code>margin</code>: Space outside the border</li>
+            </ul>
+            <div class="demo box-model-demo">
+                This box demonstrates the box model with content, padding, border, and margin
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>4. Margins and Padding</h2>
+        <div class="example">
+            <h3>Shorthand Properties</h3>
+            <code>
+                /* All sides */<br>
+                margin: 10px;<br>
+                <br>
+                /* Top/Bottom Left/Right */<br>
+                padding: 10px 20px;<br>
+                <br>
+                /* Top Right Bottom Left */<br>
+                margin: 10px 20px 15px 25px;
+            </code>
+        </div>
+    </section>
+
+    <section>
+        <h2>5. Practice Exercise</h2>
+        <p>Open the workshop folder and use workshop.html to practice styling your personal webpage from Lesson 1. The exercise will help you apply all the concepts we've learned!</p>
+    </section>
+</body>
+</html> 

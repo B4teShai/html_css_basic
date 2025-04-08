@@ -1,0 +1,96 @@
+/* Main styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styles */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Section styles */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 0;
+}
+
+/* Text styles */
+p {
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #e74c3c;
+}
+
+em {
+    color: #27ae60;
+}
+
+/* List styles */
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Link styles */
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Image styles */
+img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #3498db;
+    padding: 3px;
+}
+
+/* Connect links section */
+.connect-links {
+    text-align: center;
+}
+
+.connect-links a {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+}
+
+.connect-links a:hover {
+    background-color: #2980b9;
+    text-decoration: none;
+} 

@@ -1,0 +1,80 @@
+/* TODO: Add styles for the body
+   - Set a nice font-family
+   - Add some padding
+   - Set a maximum width
+   - Center the content
+*/
+body {
+    /* Your styles here */
+}
+
+/* TODO: Style the main heading (h1)
+   - Choose a color
+   - Set an appropriate size
+   - Add some margin
+*/
+h1 {
+    /* Your styles here */
+}
+
+/* TODO: Style all sections
+   - Add padding
+   - Add margins between sections
+   - Add a border or background color
+*/
+section {
+    /* Your styles here */
+}
+
+/* TODO: Style the About Me section
+   - Make the text easy to read
+   - Style the bold and italic text distinctly
+*/
+p {
+    /* Your styles here */
+}
+
+strong {
+    /* Your styles here */
+}
+
+em {
+    /* Your styles here */
+}
+
+/* TODO: Style the lists (hobbies and foods)
+   - Add spacing between list items
+   - Style the bullet points or numbers
+   - Add padding to the list
+*/
+ul, ol {
+    /* Your styles here */
+}
+
+li {
+    /* Your styles here */
+}
+
+/* TODO: Style the links
+   - Change the default blue color
+   - Add hover effects
+   - Remove underline if desired
+*/
+a {
+    /* Your styles here */
+}
+
+a:hover {
+    /* Your styles here */
+}
+
+/* TODO: Style the image
+   - Set appropriate dimensions
+   - Add border or border-radius
+   - Add some margin/padding
+*/
+img {
+    /* Your styles here */
+}
+
+/* BONUS: Add any additional styles to make your page unique! */ 

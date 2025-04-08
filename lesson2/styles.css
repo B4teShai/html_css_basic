@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.example {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.demo {
+    border: 2px solid #666;
+    padding: 10px;
+    margin: 10px 0;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+/* Demo styles for examples */
+.color-demo { color: #ff5733; }
+.background-demo { background-color: #ffe4e1; }
+.font-demo { font-family: 'Georgia', serif; font-size: 1.2em; }
+.box-model-demo {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #333;
+    margin: 15px;
+    background-color: #f0f0f0;
+}
