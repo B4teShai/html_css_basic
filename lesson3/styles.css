@@ -1,0 +1,164 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.example {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+/* Display Properties Demo */
+.display-demo {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.block {
+    background-color: #ffc107;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.inline {
+    background-color: #17a2b8;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.inline-block {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    width: 150px;
+    display: inline-block;
+}
+
+/* Flexbox Demo */
+.flex-demo {
+    display: flex;
+    gap: 10px;
+    background-color: #e9ecef;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.flex-items-demo {
+    display: flex;
+    gap: 10px;
+    background-color: #e9ecef;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.flex-item {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
+    background-color: #0056b3;
+}
+
+/* Grid Demo */
+.grid-demo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #e9ecef;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.grid-placement-demo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #e9ecef;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.grid-item {
+    background-color: #6f42c1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.span-2 {
+    grid-column: span 2;
+    background-color: #563d7c;
+}
+
+.span-2-row {
+    grid-row: span 2;
+    background-color: #563d7c;
+}
+
+/* Position Demo */
+.position-demo {
+    position: relative;
+    height: 200px;
+    background-color: #e9ecef;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dee2e6;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #fd7e14;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+.absolute {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #20c997;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    z-index: 1000;
+} 

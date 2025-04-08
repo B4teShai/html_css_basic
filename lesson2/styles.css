@@ -34,3 +34,41 @@ code {
     margin: 15px;
     background-color: #f0f0f0;
 }
+/* Selector Demo Styles */
+#selector-demo {
+    border: 2px solid #3498db;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#unique {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+#special {
+    border-left: 4px solid #9b59b6;
+    padding-left: 10px;
+}
+
+.highlight {
+    background-color: #fff176;
+    padding: 2px 5px;
+}
+
+.demo-box {
+    background-color: #f8f9fa;
+}
+
+/* Example of ID vs Class Specificity */
+.explanation {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#selector-demo .explanation {
+    background-color: #e8f4f8;
+    border-left: 4px solid #3498db;
+}

@@ -1,0 +1,137 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* TODO: Style the navigation bar using both ID and class selectors
+   - Use #main-nav for unique navbar styles
+   - Use #brand for logo styling
+   - Combine ID and class selectors for specific elements
+*/
+#main-nav {
+    /* Your styles here */
+}
+
+#brand {
+    /* Your styles here */
+}
+
+.nav-links {
+    /* Your styles here */
+}
+
+/* TODO: Style the hero section using ID selectors
+   - Use #home for the hero section
+   - Style #hero-content specifically
+   - Combine with existing classes for enhanced specificity
+*/
+#home {
+    /* Your styles here */
+}
+
+#hero-content {
+    /* Your styles here */
+}
+
+/* TODO: Style the projects section using both IDs and classes
+   - Use #projects for section-specific styles
+   - Style #projects-grid for layout
+   - Combine with classes for card styles
+*/
+#projects {
+    /* Your styles here */
+}
+
+#projects-grid {
+    /* Your styles here */
+}
+
+.project-card {
+    /* Your styles here */
+}
+
+/* TODO: Style the skills section using ID combinations
+   - Use #skills for section styles
+   - Style #skills-container for layout
+   - Combine with classes for individual items
+*/
+#skills {
+    /* Your styles here */
+}
+
+#skills-container {
+    /* Your styles here */
+}
+
+.skill-item {
+    /* Your styles here */
+}
+
+/* TODO: Style the contact form using IDs for unique elements
+   - Use #contact for section styles
+   - Style #contact-form specifically
+   - Use IDs for unique form elements
+*/
+#contact {
+    /* Your styles here */
+}
+
+#contact-form {
+    /* Your styles here */
+}
+
+#submit-btn {
+    /* Your styles here */
+}
+
+/* TODO: Style the footer using ID selectors
+   - Use #main-footer for main styles
+   - Style #footer-content for layout
+   - Use #social-links for specific styling
+*/
+#main-footer {
+    /* Your styles here */
+}
+
+#footer-content {
+    /* Your styles here */
+}
+
+#social-links {
+    /* Your styles here */
+}
+
+/* TODO: Add media queries for responsive design
+   - Use IDs for specific responsive adjustments
+   - Combine IDs and classes for precise control
+*/
+@media (max-width: 768px) {
+    #main-nav {
+        /* Your mobile styles here */
+    }
+
+    #projects-grid {
+        /* Your mobile styles here */
+    }
+
+    #footer-content {
+        /* Your mobile styles here */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #projects-grid {
+        /* Your tablet styles here */
+    }
+
+    #skills-container {
+        /* Your tablet styles here */
+    }
+} 

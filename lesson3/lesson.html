@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3: Layout and Positioning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lesson 3: Layout and Positioning</h1>
+
+    <section>
+        <h2>1. Display Properties</h2>
+        <div class="example">
+            <h3>Common Display Values</h3>
+            <div class="display-demo">
+                <div class="block">display: block</div>
+                <div class="inline">display: inline</div>
+                <div class="inline">display: inline</div>
+                <div class="inline-block">display: inline-block</div>
+                <div class="inline-block">display: inline-block</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>2. Flexbox Layout</h2>
+        <div class="example">
+            <h3>Basic Flexbox Container</h3>
+            <div class="flex-demo">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+            <h4>Common Flex Container Properties:</h4>
+            <ul>
+                <li><code>display: flex</code> - Creates a flex container</li>
+                <li><code>flex-direction</code> - Row or column layout</li>
+                <li><code>justify-content</code> - Alignment along main axis</li>
+                <li><code>align-items</code> - Alignment along cross axis</li>
+                <li><code>gap</code> - Space between flex items</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <h3>Flex Item Properties</h3>
+            <div class="flex-items-demo">
+                <div class="flex-item grow">flex-grow: 1</div>
+                <div class="flex-item grow-2">flex-grow: 2</div>
+                <div class="flex-item">no grow</div>
+            </div>
+            <h4>Common Flex Item Properties:</h4>
+            <ul>
+                <li><code>flex-grow</code> - Growth factor</li>
+                <li><code>flex-shrink</code> - Shrink factor</li>
+                <li><code>flex-basis</code> - Initial size</li>
+                <li><code>align-self</code> - Individual alignment</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>3. Grid Layout</h2>
+        <div class="example">
+            <h3>Basic Grid Container</h3>
+            <div class="grid-demo">
+                <div class="grid-item">1</div>
+                <div class="grid-item">2</div>
+                <div class="grid-item">3</div>
+                <div class="grid-item">4</div>
+                <div class="grid-item">5</div>
+                <div class="grid-item">6</div>
+            </div>
+            <h4>Common Grid Container Properties:</h4>
+            <ul>
+                <li><code>display: grid</code> - Creates a grid container</li>
+                <li><code>grid-template-columns</code> - Defines columns</li>
+                <li><code>grid-template-rows</code> - Defines rows</li>
+                <li><code>gap</code> - Space between grid items</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <h3>Grid Item Placement</h3>
+            <div class="grid-placement-demo">
+                <div class="grid-item span-2">Spans 2 columns</div>
+                <div class="grid-item">2</div>
+                <div class="grid-item span-2-row">Spans 2 rows</div>
+                <div class="grid-item">4</div>
+                <div class="grid-item">5</div>
+            </div>
+            <h4>Grid Item Properties:</h4>
+            <ul>
+                <li><code>grid-column</code> - Column placement</li>
+                <li><code>grid-row</code> - Row placement</li>
+                <li><code>grid-area</code> - Combined placement</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>4. Positioning</h2>
+        <div class="example">
+            <h3>Position Properties</h3>
+            <div class="position-demo">
+                <div class="relative">position: relative</div>
+                <div class="absolute">position: absolute</div>
+                <div class="fixed">position: fixed</div>
+            </div>
+            <h4>Position Values:</h4>
+            <ul>
+                <li><code>static</code> - Default positioning</li>
+                <li><code>relative</code> - Relative to normal position</li>
+                <li><code>absolute</code> - Relative to positioned parent</li>
+                <li><code>fixed</code> - Relative to viewport</li>
+                <li><code>sticky</code> - Hybrid of relative and fixed</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>5. Practice Exercise</h2>
+        <p>Open the workshop folder and start with workshop.html. You'll create a responsive layout using both Flexbox and Grid!</p>
+    </section>
+</body>
+</html> 

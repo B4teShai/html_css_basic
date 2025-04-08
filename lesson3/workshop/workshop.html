@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="main-header">
+        <nav id="main-nav" class="navbar">
+            <!-- TODO: Create a responsive navigation bar using Flexbox
+                 - Logo on the left
+                 - Navigation links on the right
+                 - Links should wrap on mobile -->
+            <div id="brand" class="logo">Your Logo</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- TODO: Center the hero content both vertically and horizontally using Flexbox -->
+        <div id="hero-content" class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section id="projects" class="projects">
+        <!-- TODO: Create a responsive grid layout for projects
+             - 3 columns on desktop
+             - 2 columns on tablet
+             - 1 column on mobile -->
+        <h2>My Projects</h2>
+        <div id="projects-grid" class="project-grid">
+            <div class="project-card">Project 1</div>
+            <div class="project-card">Project 2</div>
+            <div class="project-card">Project 3</div>
+            <div class="project-card">Project 4</div>
+            <div class="project-card">Project 5</div>
+            <div class="project-card">Project 6</div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <!-- TODO: Create a flexible layout for skills
+             - Use Flexbox to create a wrap-around effect
+             - Each skill should be equal width
+             - Add gaps between skills -->
+        <h2>My Skills</h2>
+        <div id="skills-container" class="skills-container">
+            <div class="skill-item">HTML5</div>
+            <div class="skill-item">CSS3</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">React</div>
+            <div class="skill-item">Node.js</div>
+            <div class="skill-item">Git</div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+        <!-- TODO: Create a centered contact form
+             - Use Grid for form layout
+             - Make it responsive
+             - Style input fields and button -->
+        <h2>Contact Me</h2>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button id="submit-btn" type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <!-- TODO: Create a responsive footer
+             - Use Flexbox for layout
+             - Stack elements on mobile -->
+        <div id="footer-content" class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p id="contact-email">email@example.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Social Media</h3>
+                <div id="social-links" class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
