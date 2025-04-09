@@ -60,4 +60,38 @@ Welcome to the HTML & CSS Basics Course! This course is designed to help you lea
 3. Start with Lesson 1
 4. Complete each workshop exercise before moving to the next lesson
 
+## Additional Learning Resources
+
+### Interactive Challenges
+- [Flexbox Froggy](https://flexboxfroggy.com/) - Learn Flexbox through a game format
+- [Grid Garden](https://cssgridgarden.com/) - Learn CSS Grid through a game format
+- [CSS Diner](https://flukeout.github.io/) - Learn CSS selectors through a game format
+
+### Online Courses
+- [MDN Web Docs](https://developer.mozilla.org/) - Detailed HTML and CSS documentation
+- [CSS-Tricks](https://css-tricks.com/) - CSS tricks and examples
+- [web.dev](https://web.dev/) - Google's web development learning resources
+
+### Practice Platforms
+- [CodePen](https://codepen.io/) - Practice coding directly in the browser
+- [Frontend Mentor](https://www.frontendmentor.io/) - Practice projects on real-world templates
+- [CSS Battle](https://cssbattle.dev/) - CSS battle challenges
+
+### Useful Tools
+- [Can I Use](https://caniuse.com/) - Check browser support for CSS features
+- [Clippy](https://bennettfeely.com/clippy/) - CSS clip-path generator
+- [Cubic Bezier](https://cubic-bezier.com/) - CSS timing function generator
+- [CSS Gradient](https://cssgradient.io/) - CSS gradient generator
+
+### YouTube Channels
+- [Kevin Powell](https://www.youtube.com/kepowob) - Advanced CSS tutorials
+- [Traversy Media](https://www.youtube.com/traversymedia) - Various web development topics
+- [Web Dev Simplified](https://www.youtube.com/webdevsimplified) - Easy-to-understand tutorials
+
+### Responsive Design Tools
+- [Responsively](https://responsively.app/) - Test responsive layouts on multiple devices
+- [Device Mode](https://developers.google.com/web/tools/chrome-devtools/device-mode) - Chrome DevTools responsive mode
+
 Happy coding! 🚀
+
+© 2025 Altanshagai. All rights reserved.
